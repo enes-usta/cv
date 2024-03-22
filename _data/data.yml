@@ -31,12 +31,18 @@ sidebar:
           level: B2
 
     interests:
-      title: Compétences et qualités
+      title: Qualités et intérêts
       info:
-        - Flexible, Autonome, Rigoureux
-        - Capacité à apprendre rapidement
-        - Passionné par les nouvelles technologies
-        - Bon esprit d'équipe
+        - item: Flexible, Autonome
+          link:
+        - item: Capacité à apprendre rapidement
+          link:
+        - item: Bon esprit d'équipe
+          link:
+        - item: Nouvelles technologies
+          link:
+        - item: Bricoleur
+          link:
 
 career-profile:
     title: Profil
@@ -102,13 +108,11 @@ projects:
       - title: Algorithms métaheuristique pour la résolution TSP - 2021
         tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
 skills:
-    title: Compétences
+    title: Technologies passées
     toolset:
       - name: Languages
-        details: PHP | Python | C++ | C | Java | C# | JavaScript | SQL | PL/SQL | XML | HTML | CSS | VBA | Twig
+        level: Python | PHP | SQL | XML | C++ | C | Java | C# | JavaScript | PL/SQL | VBA | Twig
       - name: Scripting
-        details: Bash | AWK | Iptables | nftables | System programming C | Docker | GIT
+        level: System programming C | Docker | GIT | Bash | AWK | Iptables | nftables
       - name: Frameworks
-        details: NodeJS | React | Symfony | Hibernate | NHibernate | Doctrine | jQuery
-footer: >
-    -
+        level: Symfony | Doctrine | React | NodeJS | Hibernate | NHibernate | jQuery
