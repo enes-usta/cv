@@ -4,7 +4,7 @@
 
 sidebar:
     position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -37,21 +37,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Learning new technologies, concepts
-          link:
-
         - item: DIY tasks ()
-          link:
+        - item: Learning tools and concepts. Keeping myself up-to-date
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Network, Infrastructure, Cloud / DevOps
 education:
     title: Education
     info:
@@ -59,63 +51,46 @@ education:
         university: University of Lorraine, Metz
         time: 2020 - 2022
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Describe your study here lorem ipsum dolor sit amet
       - degree: BSc in Computer Science
         university: University of Lorraine, Metz
         time: 2017 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          The Computer Science degree aims to provide the foundations in the main areas of IT: Software design and development, Algorithmics-Programming, Operating systems, Networks, Database management, Web development.
+          An introduction to several specialties is offered: Modeling and Simulation, Mobile Development, Human-Machine Interfaces, Business Intelligence and Systems Security
 
 experiences:
     title: Experiences
     info:
     # Paris akar
       - role: 
-        time: 2024 January - April
+        time: 2024 December - April
         company: Akar Nord
         details: |
-          zdz
+          Deployment and configuration of E-commerce platform.
+          Reversing ERP database and implementation of tool to update E-commerce platform's products, categories, prices, etc. 
+          Tools : Prestashop, Python, Pandas
     # Digicom
       - role: Repairer
         time: 2023 January - December
         company: Digicom
         details: |
-          Details
+          Laptop and PC diagnostic and repair
     # Sainte Sophie
-
+      - time: 2023 January - April
+        company: Sainte Sophie
+        details: |
+          POS Software installation, configuration.
+          Website, SEO, Menus and flyers, CCTV System installation. 
     # CIRCL
       - role: Internship
         time: 2022 April - August
-        company: CIRCL, Luxembourg
+        company: CIRCL
         details: |
           -	Conception, implementation, and test of an open-source tool to retrieve BGP messages with filtering functionalities (routes, prefixes, autonomous systems, etc.) and capable of saving tens of thousands records/second in different databases.
           -	Collaborative work under Joint Threat Analysis Network (European funded project)
           Discovery of CIRCL Tools: MISP, AIL Framework, Lookyloo, Pandora
           Tools - Python, Docker, Git, Database systems
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
 projects:
     title: Projects
     intro: >
@@ -124,42 +99,23 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Home Lab
-        tagline: "Built rack, pulled cables, Truenas (Media, storage, DNS), Router/Switch configuration ()"
-
-      - title: DevStudio
-        link: "#"
-        tagline: ""
-
-      - title: Tempo
-        link: "#"
-        tagline: ""
-
-      - title: Atom
-        link: "#"
-        tagline: ""
-
-
+        tagline: "Built rack, pulled cables, Truenas (Media, storage, DNS)
+                  Router/Switch configuration"
+      - title: Taupe Musique - Synthesis project - 2022
+        tagline: "PHP, MySQL, Python
+                  Infrastructure, defenses (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
+                  Pentest (DDOS, Spoofing, Injections, Scans)
+                  CTF (Creation and solve)"
+      - title: Metaheuristic algorithms for solving TSP - 2021
+        tagline: "2-opt, Mutation, crossover, genetic, Simulated annealing, ranked 1st"
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Languages &amp; Frameworks
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: Languages
+        details: PHP | Python | C++ | C | Java | C# | JavaScript | SQL | PL/SQL | XML | HTML | CSS | VBA | Twig
+      - name: Bash | AWK | Iptables | nftables | System programming C | Docker | GIT
+        details: Javascript & jQuery
+      - name: Frameworks
+        details: NodeJS | React | Symfony | Hibernate | NHibernate | Doctrine | jQuery
 footer: >
     -
