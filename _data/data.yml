@@ -41,11 +41,11 @@ sidebar:
 career-profile:
     title: Profil
     summary: |
-      Network, Infrastructure, Cloud / DevOps
+      Motivé par l'apprentissage, le challenge et l'innovation, je recherche un projet dans les domaines des réseaux, de l'infrastructure, du cloud /DevOps tout en respectant les problématiques de sécurité.
 education:
     title: Education
     info:
-      - degree: Master Informatique - Sécurité de l'Information et de Systèmes
+      - degree: Master Informatique - Sécurité de l'Information et des Systèmes
         university: Université de Lorraine, Metz
         time: 2020 - 2022
       - degree: Licence Informatique
@@ -73,14 +73,14 @@ experiences:
           - Réinstallation de systèmes d'exploitation et de logiciels
           - Assistance technique aux clients
     # Sainte Sophie
-      - role:
+      - role: -
       - time: 2023 Janvier - Avril
         company: Sainte Sophie
         details: |
           Installation et configuration d'un Point de Vente.
           Site web, SEO, Menus et flyers, Installation CCTV System.
     # CIRCL
-      - role: Internship
+      - role: Stage
         time: 2022 April - August
         company: CIRCL
         details: |
@@ -93,7 +93,7 @@ projects:
     assignments:
       - title: Home Lab
         tagline: "Baie informatique, Truenas (Media, storage, Reverse Proxy, DNS)
-                  Router/Switch configuration"
+                  Router/Switch configuration, VPN, VLAN, Firewall"
       - title: Taupe Musique - Project de synthèse - 2022
         tagline: "PHP, MySQL, Python
                   Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
@@ -101,6 +101,14 @@ projects:
                   CTF (Création and résolution)"
       - title: Algorithms métaheuristique pour la résolution TSP - 2021
         tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
-
+skills:
+    title: Compétences
+    toolset:
+      - name: Languages
+        details: PHP | Python | C++ | C | Java | C# | JavaScript | SQL | PL/SQL | XML | HTML | CSS | VBA | Twig
+      - name: Scripting
+        details: Bash | AWK | Iptables | nftables | System programming C | Docker | GIT
+      - name: Frameworks
+        details: NodeJS | React | Symfony | Hibernate | NHibernate | Doctrine | jQuery
 footer: >
     -
