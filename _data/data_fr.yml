@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Enes Usta
+    tagline: 
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: enes@usta.pw
+    phone: (+33) 6 61 38 48 09
+    citizenship: Metz
+    website: enes.usta.pw
+    linkedin: ustaenes
+    github: enes-usta
+    # pdf: http://enes.usta.pw/images/default/sample.pdf
+
+    languages:
+      title: Langues
+      info:
+        - idiom: Anglais
+          level: B2
+
+        - idiom: Turc
+          level: B2
+
+    interests:
+      title: Qualités et intérêts
+      info:
+        - item: Flexible, Autonome
+          link:
+        - item: Capacité à apprendre rapidement
+          link:
+        - item: Bon esprit d'équipe
+          link:
+        - item: Nouvelles technologies
+          link:
+        - item: Bricoleur
+          link:
+
+career-profile:
+    title: Profil
+    summary: |
+      Motivé par l'apprentissage, le challenge et l'innovation, je recherche un projet dans les domaines des réseaux, de l'infrastructure, du cloud /DevOps tout en respectant les problématiques de sécurité.
+education:
+    title: Education
+    info:
+      - degree: Master Informatique - Sécurité de l'Information et des Systèmes
+        university: Université de Lorraine, Metz
+        time: 2020 - 2022
+      - degree: Licence Informatique
+        university: Université de Lorraine, Metz
+        time: 2017 - 2020
+
+experiences:
+    title: Experiences
+    info:
+    # Paris akar
+      - role: Software Engineer
+        time: 2023 Décembre - 2024 Avril
+        company: Paris Akar
+        details: |
+          - Déploiement et configuration d'une plateforme e-commerce
+          - Reversing Base de données
+          - Implémentation d'outils pour l'automatisation du transfert des données du logiciel de gestion commerciale vers la plateforme e-commerce.
+    # Digicom
+      - role: IT Support
+        time: 2023 Janvier - Décembre
+        company: Digicom
+        details: |
+          - Diagnostic et réparation de PC et laptops
+          - Remplacement de composants défectueux
+          - Réinstallation de systèmes d'exploitation et de logiciels, Récupérations de données
+          - Assistance technique
+    # Sainte Sophie
+      - role: Software Engineer
+        time: 2023 Janvier - Avril
+        company: Sainte Sophie
+        details: |
+          - Installation et configuration d'un Point de Vente.
+          - Site web, SEO, Menus et flyers, Installation CCTV System.
+    # CIRCL
+      - role: Stage
+        time: 2022 Avril - Août
+        company: CIRCL
+        details: |
+          - Conception, implémentation et test d'un outil open-source de récupération de messages BGP avec des fonctionnalités de filtrage (routes, préfixes, systèmes autonomes, etc.) et capable de sauvegarder des dizaines de milliers d'enregistrements/seconde dans différentes bases de données.
+          - Travail collaboratif dans le cadre du Joint Threat Analysis Network (projet financé par l'Europe)
+          - Tools: Python, Docker, Git, Database systems
+projects:
+    title: Projets
+    assignments:
+      - title: Home Lab
+        tagline: |
+          <br> Baie informatique, Truenas (Media, storage, Reverse Proxy, DNS)
+          <br> Router/Switch configuration, VPN, VLAN, Firewall"
+      - title: Taupe Musique - Project de synthèse - 2022
+        tagline: |
+          <br> Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
+          <br> Pentest (DDOS, Spoofing, Injections, Scans)
+          <br> CTF (Création and résolution)
+      - title: Algorithms métaheuristique pour la résolution TSP - 2021
+        tagline: |
+          <br> 2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st
+skills:
+    title: Technologies utilisées
+    toolset:
+      - name: Languages
+        level: Python | PHP | SQL | XML | C++ | C | Java | C# | JavaScript | PL/SQL | VBA | Twig
+      - name: Scripting
+        level: System programming C | Docker | GIT | Bash | AWK | Iptables | nftables
+      - name: Frameworks
+        level: Symfony | Doctrine | React | NodeJS | Hibernate | NHibernate | jQuery
