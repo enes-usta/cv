@@ -103,7 +103,6 @@ projects:
           <br> Router/Switch configuration, VPN, VLAN, Firewall"
       - title: Taupe Musique - Synthesis project - 2022
         tagline: |
-          <br> PHP, MySQL, Python
           <br> Infrastructure, defenses (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
           <br> Pentest (DDOS, Spoofing, Injections, Scans)
           <br> CTF (Creation and solving)
