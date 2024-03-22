@@ -71,14 +71,14 @@ experiences:
           - Reversing Database
           - Implementation of tools for automating the transfer of data from the commercial management software to the e-commerce platform.
     # Digicom
-      - role: Repairer
+      - role: IT Support
         time: 2023 January - December
         company: Digicom
         details: |
           - Diagnosis and repair of PCs and laptops
           - Replacement of defective components
-          - Reinstallation of operating systems and software and data recovery
-          - Technical support for customers
+          - Reinstallation of operating systems and software, Data recovery
+          - Technical support
     # Sainte Sophie
       - role: Software engineer
         time: 2023 January - April
@@ -93,19 +93,22 @@ experiences:
         details: |
           -	Conception, implementation, and test of an open-source tool to retrieve BGP messages with filtering functionalities (routes, prefixes, autonomous systems, etc.) and capable of saving tens of thousands records/second in different databases.
           -	Collaborative work under Joint Threat Analysis Network (European funded project)
+          - Tools: Python, Docker, Git, Database systems
 projects:
     title: Projects
     assignments:
       - title: Home Lab
-        tagline: "Computer bay, Truenas (Media, storage, Reverse Proxy, DNS)
-                  Router/Switch configuration, VPN, VLAN, Firewall"
+        tagline: |
+          <br> Computer bay, Truenas (Media, storage, Reverse Proxy, DNS)
+          <br> Router/Switch configuration, VPN, VLAN, Firewall"
       - title: Taupe Musique - Synthesis project - 2022
-        tagline: "PHP, MySQL, Python
-                  Infrastructure, defenses (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
-                  Pentest (DDOS, Spoofing, Injections, Scans)
-                  CTF (Creation and solving)"
+        tagline: |
+          <br> PHP, MySQL, Python
+          <br> Infrastructure, defenses (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
+          <br> Pentest (DDOS, Spoofing, Injections, Scans)
+          <br> CTF (Creation and solving)
       - title: Metaheuristic algorithms for TSP solving - 2021
-        tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
+        tagline: <br>2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st
 skills:
     title: Used technologies
     toolset:
@@ -115,3 +118,5 @@ skills:
         level: System programming C | Docker | GIT | Bash | AWK | Iptables | nftables
       - name: Frameworks
         level: Symfony | Doctrine | React | NodeJS | Hibernate | NHibernate | jQuery
+
+footer: uu
