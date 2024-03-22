@@ -15,15 +15,14 @@ sidebar:
     # Sidebar links
     email: enes@usta.pw
     phone: (+33) 6 61 38 48 09
-    timezone: Europe/Paris
-    citizenship:
+    citizenship: Metz
     website: enes.usta.pw
     linkedin: ustaenes
     github: enes-usta
     # pdf: http://enes.usta.pw/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Langues
       info:
         - idiom: Anglais
           level: B2
@@ -34,10 +33,10 @@ sidebar:
     interests:
       title: Compétences et qualités
       info:
-        - Rigoureux, méthodique, autonome, adaptable
-        - Excellent esprit d'équipe
+        - Flexible, Autonome, Rigoureux
         - Capacité à apprendre rapidement
         - Passionné par les nouvelles technologies
+        - Bon esprit d'équipe
 
 career-profile:
     title: Profil
@@ -46,40 +45,36 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science - Information and Systems Security
-        university: University of Lorraine, Metz
+      - degree: Master Informatique - Sécurité de l'Information et de Systèmes
+        university: Université de Lorraine, Metz
         time: 2020 - 2022
-        details: |
-          Describe your study here lorem ipsum dolor sit amet
-      - degree: BSc in Computer Science
-        university: University of Lorraine, Metz
+      - degree: Licence Informatique
+        university: Université de Lorraine, Metz
         time: 2017 - 2020
-        details: |
-          The Computer Science degree aims to provide the foundations in the main areas of IT: Software design and development, Algorithmics-Programming, Operating systems, Networks, Database management, Web development.
-          An introduction to several specialties is offered: Modeling and Simulation, Mobile Development, Human-Machine Interfaces, Business Intelligence and Systems Security
 
 experiences:
     title: Experiences
     info:
     # Paris akar
-      - role: 
-        time: 2024 December - April
+      - role: Ingénieur logiciel
+        time: 2024 Décembre - Avril
         company: Paris Akar
         details: |
           - Déploiement et configuration d'une plateforme e-commerce
-          - Développement d'outils pour automatiser la mise à jour des produits, catégories et prix
-          - Mise en place d'un système de sécurité pour la plateforme e-commerce
+          - Reversing Base de données
+          - Implémentation d'outils pour l'automatisation du transfert des données du logiciel de gestion commerciale vers la plateforme e-commerce.
     # Digicom
-      - role: Repairer
-        time: 2023 January - December
+      - role: Réparateur
+        time: 2023 Janvier - Décembre
         company: Digicom
         details: |
-          Diagnostic et réparation de PC portables
-          Remplacement de composants défectueux
-          Réinstallation de systèmes d'exploitation et de logiciels
-          Assistance technique aux clients
+          - Diagnostic et réparation de PC portables et PC
+          - Remplacement de composants défectueux
+          - Réinstallation de systèmes d'exploitation et de logiciels
+          - Assistance technique aux clients
     # Sainte Sophie
-      - time: 2023 January - April
+      - role:
+      - time: 2023 Janvier - Avril
         company: Sainte Sophie
         details: |
           Installation et configuration d'un Point de Vente.
@@ -97,14 +92,14 @@ projects:
     title: Projets
     assignments:
       - title: Home Lab
-        tagline: "Built rack, pulled cables, Truenas (Media, storage, DNS)
+        tagline: "Baie informatique, Truenas (Media, storage, Reverse Proxy, DNS)
                   Router/Switch configuration"
-      - title: Taupe Musique - Synthesis project - 2022
+      - title: Taupe Musique - Project de synthèse - 2022
         tagline: "PHP, MySQL, Python
-                  Infrastructure, defences (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
+                  Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
                   Pentest (DDOS, Spoofing, Injections, Scans)
                   CTF (Création and résolution)"
-      - title: Metaheuristic algorithms for solving TSP - 2021
+      - title: Algorithms métaheuristique pour la résolution TSP - 2021
         tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
 
 footer: >
