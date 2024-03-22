@@ -63,7 +63,7 @@ experiences:
     info:
     # Paris akar
       - role: Ingénieur logiciel
-        time: 2024 Décembre - Avril
+        time: 2023 Décembre - 2024 Avril
         company: Paris Akar
         details: |
           - Déploiement et configuration d'une plateforme e-commerce
@@ -76,15 +76,15 @@ experiences:
         details: |
           - Diagnostic et réparation de PC portables et PC
           - Remplacement de composants défectueux
-          - Réinstallation de systèmes d'exploitation et de logiciels
+          - Réinstallation de systèmes d'exploitation et de logiciels et récupérations de données
           - Assistance technique aux clients
     # Sainte Sophie
       - role: Ingénieur logiciel
-      - time: 2023 Janvier - Avril
+        time: 2023 Janvier - Avril
         company: Sainte Sophie
         details: |
-          Installation et configuration d'un Point de Vente.
-          Site web, SEO, Menus et flyers, Installation CCTV System.
+          - Installation et configuration d'un Point de Vente.
+          - Site web, SEO, Menus et flyers, Installation CCTV System.
     # CIRCL
       - role: Stage
         time: 2022 April - August
@@ -108,7 +108,7 @@ projects:
       - title: Algorithms métaheuristique pour la résolution TSP - 2021
         tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
 skills:
-    title: Technologies passées
+    title: Technologies utilisées
     toolset:
       - name: Languages
         level: Python | PHP | SQL | XML | C++ | C | Java | C# | JavaScript | PL/SQL | VBA | Twig
