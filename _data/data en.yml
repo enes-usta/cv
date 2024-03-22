@@ -25,22 +25,23 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: Anglais
+        - idiom: French
+          level: Native
+
+        - idiom: English
           level: B2
 
-        - idiom: Turc
+        - idiom: Turkish
           level: B2
 
     interests:
-      title: Compétences et qualités
+      title: Interests
       info:
-        - Rigoureux, méthodique, autonome, adaptable
-        - Excellent esprit d'équipe
-        - Capacité à apprendre rapidement
-        - Passionné par les nouvelles technologies
+        - item: DIY tasks ()
+        - item: Learning tools and concepts. Keeping myself up-to-date
 
 career-profile:
-    title: Profil
+    title: Career Profile
     summary: |
       Network, Infrastructure, Cloud / DevOps
 education:
@@ -64,48 +65,57 @@ experiences:
     # Paris akar
       - role: 
         time: 2024 December - April
-        company: Paris Akar
+        company: Akar Nord
         details: |
-          - Déploiement et configuration d'une plateforme e-commerce
-          - Développement d'outils pour automatiser la mise à jour des produits, catégories et prix
-          - Mise en place d'un système de sécurité pour la plateforme e-commerce
+          Deployment and configuration of E-commerce platform.
+          Reversing ERP database and implementation of tool to update E-commerce platform's products, categories, prices, etc. 
+          Tools : Prestashop, Python, Pandas
     # Digicom
       - role: Repairer
         time: 2023 January - December
         company: Digicom
         details: |
-          Diagnostic et réparation de PC portables
-          Remplacement de composants défectueux
-          Réinstallation de systèmes d'exploitation et de logiciels
-          Assistance technique aux clients
+          Laptop and PC diagnostic and repair
     # Sainte Sophie
       - time: 2023 January - April
         company: Sainte Sophie
         details: |
-          Installation et configuration d'un Point de Vente.
-          Site web, SEO, Menus et flyers, Installation CCTV System.
+          POS Software installation, configuration.
+          Website, SEO, Menus and flyers, CCTV System installation. 
     # CIRCL
       - role: Internship
         time: 2022 April - August
         company: CIRCL
         details: |
-          - Conception, implémentation et test d'un outil open-source de récupération de messages BGP avec des fonctionnalités de filtrage (routes, préfixes, systèmes autonomes, etc.) et capable de sauvegarder des dizaines de milliers d'enregistrements/seconde dans différentes bases de données.
-          - Travail collaboratif dans le cadre du Joint Threat Analysis Network (projet financé par l'Europe)
-          - Découverte des outils CIRCL : MISP, AIL Framework, Lookyloo, Pandora
-          - Outils : Python, Docker, Git, systèmes de bases de données
+          -	Conception, implementation, and test of an open-source tool to retrieve BGP messages with filtering functionalities (routes, prefixes, autonomous systems, etc.) and capable of saving tens of thousands records/second in different databases.
+          -	Collaborative work under Joint Threat Analysis Network (European funded project)
+          Discovery of CIRCL Tools: MISP, AIL Framework, Lookyloo, Pandora
+          Tools - Python, Docker, Git, Database systems
 projects:
-    title: Projets
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Home Lab
         tagline: "Built rack, pulled cables, Truenas (Media, storage, DNS)
                   Router/Switch configuration"
       - title: Taupe Musique - Synthesis project - 2022
         tagline: "PHP, MySQL, Python
-                  Infrastructure, defences (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
+                  Infrastructure, defenses (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
                   Pentest (DDOS, Spoofing, Injections, Scans)
-                  CTF (Création and résolution)"
+                  CTF (Creation and solve)"
       - title: Metaheuristic algorithms for solving TSP - 2021
-        tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
-
+        tagline: "2-opt, Mutation, crossover, genetic, Simulated annealing, ranked 1st"
+skills:
+    title: Competences
+    toolset:
+      - name: Languages
+        details: PHP | Python | C++ | C | Java | C# | JavaScript | SQL | PL/SQL | XML | HTML | CSS | VBA | Twig
+      - name: Scripting
+        details: Bash | AWK | Iptables | nftables | System programming C | Docker | GIT
+      - name: Frameworks
+        details: NodeJS | React | Symfony | Hibernate | NHibernate | Doctrine | jQuery
 footer: >
     -
