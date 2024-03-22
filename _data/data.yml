@@ -62,7 +62,7 @@ experiences:
     title: Experiences
     info:
     # Paris akar
-      - role: Ingénieur logiciel
+      - role: Software Engineer
         time: 2023 Décembre - 2024 Avril
         company: Paris Akar
         details: |
@@ -70,16 +70,16 @@ experiences:
           - Reversing Base de données
           - Implémentation d'outils pour l'automatisation du transfert des données du logiciel de gestion commerciale vers la plateforme e-commerce.
     # Digicom
-      - role: Réparateur
+      - role: IT Support
         time: 2023 Janvier - Décembre
         company: Digicom
         details: |
-          - Diagnostic et réparation de PC et PC portable
+          - Diagnostic et réparation de PC
           - Remplacement de composants défectueux
-          - Réinstallation de systèmes d'exploitation et de logiciels et récupérations de données
-          - Assistance technique aux clients
+          - Réinstallation de systèmes d'exploitation et de logiciels, Récupérations de données
+          - Assistance technique
     # Sainte Sophie
-      - role: Ingénieur logiciel
+      - role: Software Engineer
         time: 2023 Janvier - Avril
         company: Sainte Sophie
         details: |
@@ -117,3 +117,5 @@ skills:
         level: System programming C | Docker | GIT | Bash | AWK | Iptables | nftables
       - name: Frameworks
         level: Symfony | Doctrine | React | NodeJS | Hibernate | NHibernate | jQuery
+
+footer: uu
