@@ -98,14 +98,14 @@ projects:
     assignments:
       - title: Home Lab
         tagline: |
-          - Baie informatique, Truenas (Media, storage, Reverse Proxy, DNS)
-          - Router/Switch configuration, VPN, VLAN, Firewall"
+          <br> Baie informatique, Truenas (Media, storage, Reverse Proxy, DNS)
+          <br> Router/Switch configuration, VPN, VLAN, Firewall"
       - title: Taupe Musique - Project de synthèse - 2022
         tagline: |
-          - PHP, MySQL, Python
-          - Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
-          - Pentest (DDOS, Spoofing, Injections, Scans)
-          - CTF (Création and résolution)
+          <br> PHP, MySQL, Python
+          <br> Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
+          <br> Pentest (DDOS, Spoofing, Injections, Scans)
+          <br> CTF (Création and résolution)
       - title: Algorithms métaheuristique pour la résolution TSP - 2021
         tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
 skills:
