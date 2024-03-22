@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Enes Usta
+    tagline: 
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: enes@usta.pw
+    phone: (+33) 6 61 38 48 09
+    citizenship: Metz
+    website: enes.usta.pw
+    linkedin: ustaenes
+    github: enes-usta
+    # pdf: http://enes.usta.pw/images/default/sample.pdf
+
+    languages:
+      title: Langues
+      info:
+        - idiom: French
+          level: Native
+        - idiom: English
+          level: B2
+        - idiom: Turkish
+          level: B2
+
+    interests:
+      title: Qualities and Interests
+      info:
+        - item: Flexible, Autonomous
+          link:
+        - item: Ability to learn quickly
+          link:
+        - item: Good team spirit
+          link:
+        - item: New technologies
+          link:
+        - item: Handyman
+          link:
+
+career-profile:
+    title: Profil
+    summary: |
+      Motivated by learning, challenge and innovation, I am looking for a project in the areas of networks, infrastructure, cloud/DevOps while respecting security issues.
+education:
+    title: Education
+    info:
+      - degree: Master of Computer Science - Information and Systems Security
+        university: University of Lorraine, Metz
+        time: 2020 - 2022
+      - degree: Bsc of Computer Science
+        university: Université de Lorraine, Metz
+        time: 2017 - 2020
+
+experiences:
+    title: Experiences
+    info:
+    # Paris akar
+      - role: Software Engineer
+        time: 2023 December - 2024 April
+        company: Paris Akar
+        details: |
+          - Deployment and configuration of an e-commerce platform
+          - Reversing Database
+          - Implementation of tools for automating the transfer of data from the commercial management software to the e-commerce platform.
+    # Digicom
+      - role: Repairer
+        time: 2023 January - December
+        company: Digicom
+        details: |
+          - Diagnosis and repair of PCs and laptops
+          - Replacement of defective components
+          - Reinstallation of operating systems and software and data recovery
+          - Technical support for customers
+    # Sainte Sophie
+      - role: Software engineer
+        time: 2023 January - April
+        company: Sainte Sophie
+        details: |
+          - Installation and configuration of a Point of Sale.
+          - Website, SEO, Menus and flyers, CCTV System installation.
+    # CIRCL
+      - role: Internship
+        time: 2022 April - August
+        company: CIRCL
+        details: |
+          -	Conception, implementation, and test of an open-source tool to retrieve BGP messages with filtering functionalities (routes, prefixes, autonomous systems, etc.) and capable of saving tens of thousands records/second in different databases.
+          -	Collaborative work under Joint Threat Analysis Network (European funded project)
+projects:
+    title: Projects
+    assignments:
+      - title: Home Lab
+        tagline: "Computer bay, Truenas (Media, storage, Reverse Proxy, DNS)
+                  Router/Switch configuration, VPN, VLAN, Firewall"
+      - title: Taupe Musique - Synthesis project - 2022
+        tagline: "PHP, MySQL, Python
+                  Infrastructure, defenses (Hypervisor, VPN, Firewall, SIEM, segmentation, WAF)
+                  Pentest (DDOS, Spoofing, Injections, Scans)
+                  CTF (Creation and solving)"
+      - title: Metaheuristic algorithms for TSP solving - 2021
+        tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
+skills:
+    title: Used technologies
+    toolset:
+      - name: Languages
+        level: Python | PHP | SQL | XML | C++ | C | Java | C# | JavaScript | PL/SQL | VBA | Twig
+      - name: Scripting
+        level: System programming C | Docker | GIT | Bash | AWK | Iptables | nftables
+      - name: Frameworks
+        level: Symfony | Doctrine | React | NodeJS | Hibernate | NHibernate | jQuery

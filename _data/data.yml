@@ -74,7 +74,7 @@ experiences:
         time: 2023 Janvier - Décembre
         company: Digicom
         details: |
-          - Diagnostic et réparation de PC portables et PC
+          - Diagnostic et réparation de PC et PC portable
           - Remplacement de composants défectueux
           - Réinstallation de systèmes d'exploitation et de logiciels et récupérations de données
           - Assistance technique aux clients
@@ -87,13 +87,12 @@ experiences:
           - Site web, SEO, Menus et flyers, Installation CCTV System.
     # CIRCL
       - role: Stage
-        time: 2022 April - August
+        time: 2022 Avril - Août
         company: CIRCL
         details: |
           - Conception, implémentation et test d'un outil open-source de récupération de messages BGP avec des fonctionnalités de filtrage (routes, préfixes, systèmes autonomes, etc.) et capable de sauvegarder des dizaines de milliers d'enregistrements/seconde dans différentes bases de données.
           - Travail collaboratif dans le cadre du Joint Threat Analysis Network (projet financé par l'Europe)
-          - Découverte des outils CIRCL : MISP, AIL Framework, Lookyloo, Pandora
-          - Outils : Python, Docker, Git, systèmes de bases de données
+          - Tools: Python, Docker, Git, Database systems
 projects:
     title: Projets
     assignments:
@@ -101,10 +100,10 @@ projects:
         tagline: "Baie informatique, Truenas (Media, storage, Reverse Proxy, DNS)
                   Router/Switch configuration, VPN, VLAN, Firewall"
       - title: Taupe Musique - Project de synthèse - 2022
-        tagline: "PHP, MySQL, Python
-                  Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
-                  Pentest (DDOS, Spoofing, Injections, Scans)
-                  CTF (Création and résolution)"
+        tagline: "- PHP, MySQL, Python
+                  - Infrastructure, défenses (Hyperviseur, VPN, Firewall, SIEM, segmentation, WAF)
+                  - Pentest (DDOS, Spoofing, Injections, Scans)
+                  - CTF (Création and résolution)"
       - title: Algorithms métaheuristique pour la résolution TSP - 2021
         tagline: "2-opt, Mutation, crossover, genetic, Recuit simulé, ranked 1st"
 skills:
